@@ -1,0 +1,124 @@
+/* fontstyles */
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Poppins:ital,wght@0,400;1,500;1,600&family=Roboto:wght@100&display=swap");
+*{
+  font-family: 'poppins', sans-serif;
+}
+
+/* Apply these styles to the main container (e.g., <body>) */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.max-width-cell {
+  max-width: 200px; 
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/* Apply these styles to the main content section */
+main {
+  flex-grow: 1;
+}
+
+/* Apply these styles to the footer */
+footer {
+  flex-shrink: 0;
+}
+.announcement-scroll{
+  position: relative;
+  height: 440px;
+  overflow: auto;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+.h-font{
+  font-family: 'Merienda', cursive;
+}
+
+.receipt-title{
+  font-size: 20px;
+  font-weight: 900;
+}
+.receipt-subtitle{
+  font-size: 14px;
+  font-weight: 900;
+}
+.receipt-text{
+  font-size: 10px;
+}
+
+/*custom bg*/
+.custom-bg{
+  background-color: rgb(21, 192, 192);
+}
+/* button hover color */
+.btn-primary:hover{
+  background-color: rgb(21, 192, 192) !important;
+}
+
+/* horizontaline */
+.hr-blurry{
+  opacity: .5 !important;
+  border: 0;
+  height: 5px !important;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(22, 157, 242), rgba(0, 0, 0, 0)) !important;
+}
+
+/* spacings */
+.h80{height: 80px}
+.h50{height: 50px;}
+.h30{height: 30px;}
+.h15{height: 15px;}
+
+/* fontsize */
+.fs-7{font-size: 14px;}
+
+/* reservation card image */
+.res-image{
+  height: 200px;
+  overflow: hidden;
+}
+
+/* hero image */
+.hero-image {
+  background-image: url("Pictures/sampleRoom.jpg");
+  background-position: center 85%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px; /* Adjust the height as needed */
+  position: relative;
+}
+
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.hero-content h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+#Contact{
+  background-image: url("Pictures/LogHouse.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px; /* Adjust the height as needed */
+  position: relative;
+}

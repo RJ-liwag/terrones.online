@@ -1,0 +1,273 @@
+.nav-link:hover {
+  color: rgb(0, 79, 22) !important;
+}
+
+.navbar-nav .active {
+  color: rgb(0, 79, 22) !important;
+}
+
+.navbar-brand {
+  pointer-events: none;
+}
+
+/***** INDEX CSS **/
+/* .carousel-item{
+  height: 50% !important;
+} */
+
+#carouselExampleControls .carousel-item img {
+  height: 500px;
+  /* Adjust this value as needed */
+  object-fit: cover;
+  /* Ensures images maintain aspect ratio */
+  border: 5px solid #000;
+  /* Adds a border (adjust color/size as needed) */
+}
+
+.text-overlay-index {
+  position: absolute;
+  /* Keep position: absolute */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.text-overlay-index h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.text-overlay-index p {
+  font-size: 1.5em;
+}
+
+.second_section {
+  background-color: rgb(255, 255, 255);
+}
+
+.title-second-secion {
+  font-family: 'Courier New', Courier, monospace !important;
+}
+
+.bg-picture {
+  filter: brightness(70%) !important;
+}
+
+.picture {
+  /* width: 100% !important; */
+  height: 350px;
+  border-radius: 5px;
+  z-index: 1 !important;
+  transition: 0.3s ease-in-out;
+}
+
+.picture:hover {
+  filter: brightness(90%) !important;
+  box-shadow: 5px 10px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+
+/* .card-body:hover {
+  background-color: rgb(32, 61, 104);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 9px !important;
+} */
+
+.picture_with_description {
+  display: flex;
+  justify-content: center;
+  margin-left: 100px !important;
+  margin-right: 100px !important;
+}
+
+.bar {
+  width: 100%;
+}
+
+.h-font {
+  font-family: 'Merienda', cursive;
+  font-size: x-large;
+}
+
+.cottages-image {
+  width: 50%;
+  margin-right: 10px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease-in-out;
+}
+
+.cottages-image:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  filter: brightness(90%) !important;
+}
+
+.cottages-image {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.cottages-text {
+  color: #040404;
+  font-size: 14px;
+  margin: 0;
+}
+
+.cottages-image h1 {
+  color: rgb(25, 25, 26);
+  /* font-size: medium; */
+  font-family: 'poppins', sans-serif;
+}
+
+.cottages-image span {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: medium;
+  color: rgb(98, 98, 98);
+}
+
+/***** END OF  INDEX CSS **/
+
+/***** START 7/14/2024 CSS  **/
+.room_cottages {
+  position: relative;
+  /* This is the key change */
+  margin: 0 auto;
+}
+
+.text-overlay {
+  position: absolute;
+  /* Keep position: absolute */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-overlay h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.text-overlay p {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.second-section {
+  margin: 0 auto;
+}
+
+/*** START CONTACT US CSS***/
+.aboutus-txt {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.contact-us-info h4,
+.reach-us-info h4 {
+
+  text-align: left;
+}
+
+.input-contact {
+  width: 80% !important;
+}
+
+.reach-us-info {
+  width: 35% !important;
+}
+
+.text-message {
+  height: 60% !important;
+}
+
+.contact-us-info {
+  width: 30% !important;
+}
+
+.form-group textarea {
+  height: 18% !important;
+}
+
+.contact_txt {
+  font-size: 17px !important;
+}
+
+.description-text {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.btn_submit_inqury:hover {
+  background-color: darkgreen !important;
+}
+
+/*** END CONTACT US CSS***/
+
+
+/*** ROOM COTTAGE CSS***/
+
+
+/*** END OF ROOM COTTAGE CSS***/
+
+
+/***** END 7/14/2024 CSS  **/
+
+/************ MEDIA FOR RESPONSIVENESS **/
+/* @media (max-width: 768px) {
+
+
+  .picture {
+    width: 100%;
+    animation: fade 2s ease-in-out infinite alternate;
+  }
+
+
+  .picture_with_description {
+    margin: 10px auto;
+  }
+
+  .cottages-image {
+    width: 45%;
+    margin: 5px;
+  }
+
+  @media (max-width: 576px) {}
+
+  .cottages-image {
+    width: 100%;
+  }
+
+} */
+
+
+
+
+/**** for room and cottage */
+
+
+.image-container {
+  /* transform: rotate(20deg) !important; */
+}
+
+/**** end of room and cottage */
+
+/* .nav-menu{
+  margin-right: 5% !important;
+  
+} */
